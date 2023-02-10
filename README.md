@@ -1,7 +1,7 @@
-> compared to the original [htm](https://github.com/developit/htm), this fork introduces just one little change: it adds `@preact/signals` to the Preact binding of `htm`.
-> If you want to use the new standalone, just
-> `npm run build:preact`
-> and use one of the new standalone packages `preact/standalone.module.js` or `preact/standalone.umd.js`
+> compared to the original [htm](https://github.com/developit/htm), this fork introduces just one little change: it adds `@preact/signals` to the Preact binding of `htm`.<br>
+> If you want to use the new standalone, just<br>
+> `npm run build:preact`<br>
+> and either import from `preact/standalone.module.js` or load `preact/standalone.umd.js`
 
 <h1 align="center">
   HTM (Hyperscript Tagged Markup)
