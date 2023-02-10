@@ -6,3 +6,5 @@ dist
 mini
 yarn.lock
 htm.tgz
+
+.DS_Store
