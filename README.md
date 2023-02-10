@@ -1,3 +1,7 @@
+> compared to the original [htm](), this fork introduces just one little change: it adds `@preact/signals` to the Preact binding of `htm`.
+> If you want to use the new standalone, just
+> `npm run build:preact`
+> and use one of the new standalone packages `preact/standalone.module.js` or `preact/standalone.umd.js`
 
 <h1 align="center">
   HTM (Hyperscript Tagged Markup)
