@@ -3,6 +3,11 @@
 > &nbsp; `npm run build:preact`<br>
 > and either import from `preact/standalone.module.js` or load `preact/standalone.umd.js`
 
+> **Nota bene**: as mentioned in an (htm issue)[https://github.com/developit/htm/issues/239], you may achieve a similar result with the help of [npm.reversehttp.com](https://npm.reversehttp.com) using the URL<br>
+> &nbsp; `https://npm.reversehttp.com/#@preact/signals-core,@preact/signals,preact/hooks,htm/preact,preact`<br>
+> But be warned: you will have to explicitly mention all modules you result depends on - even transitive dependencies!<br>
+> On the other hand, this approach frees from the need for a separate module...
+
 <h1 align="center">
   HTM (Hyperscript Tagged Markup)
   <a href="https://www.npmjs.org/package/htm"><img src="https://img.shields.io/npm/v/htm.svg?style=flat" alt="npm"></a>
