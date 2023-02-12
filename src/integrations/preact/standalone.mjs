@@ -11,12 +11,12 @@
  * limitations under the License.
  */
 
-import { h, Component, createContext, createRef, render } from 'preact';
-import { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary } from 'preact/hooks';
-import { signal, computed, effect, batch } from '@preact/signals';
+import { h, createElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
+import { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId } from 'preact/hooks';
+import { signal, computed, effect, batch, useSignal, useComputed, useSignalEffect } from '@preact/signals';
 
 import htm from '../../index.mjs';
 
 const html = htm.bind(h);
 
-export { h, html, render, Component, createContext, createRef, useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, signal, computed, effect, batch };
+export { h, createElement, Component, createContext, createRef, render, hydrate, toChildArray, useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId, signal, computed, effect, batch, useSignal, useComputed, useSignalEffect };
