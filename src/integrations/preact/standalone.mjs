@@ -19,4 +19,9 @@ import htm from '../../index.mjs';
 
 const html = htm.bind(h);
 
-export { h, createElement, Component, createContext, createRef, render, hydrate, toChildArray, useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId, signal, computed, effect, batch, useSignal, useComputed, useSignalEffect };
+export {
+  html,
+  h, createElement, Component, createContext, createRef, render, hydrate, toChildArray,
+  useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId,
+  signal, computed, effect, batch, useSignal, useComputed, useSignalEffect
+};
