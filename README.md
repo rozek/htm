@@ -5,7 +5,7 @@
 
 > **Nota bene**: as mentioned in an [htm issue](https://github.com/developit/htm/issues/239), you may achieve a similar result with the help of [npm.reversehttp.com](https://npm.reversehttp.com) using the URL<br><br>
 > &nbsp; `https://npm.reversehttp.com/#@preact/signals-core,@preact/signals,htm/preact,preact`<br><br>
-> But be warned: you will have to explicitly mention all modules your result depends on - even transitive dependencies - if you want all of them bundled together.<br><br>
+> But be warned if you plan to use "npm.reversehttp.com" for other bundles: you will always have to explicitly mention any modules your result depends on - even transitive dependencies - if you want all of them bundled together.<br><br>
 > On the other hand, this approach frees you from the need for a separate module...
 
 <h1 align="center">
