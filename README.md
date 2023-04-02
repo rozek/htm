@@ -11,7 +11,7 @@
 > * import from [https://rozek.github.io/htm/preact/standalone.module.js](https://rozek.github.io/htm/preact/standalone.module.js) or
 > * load [https://rozek.github.io/htm/preact/standalone.umd.js](https://rozek.github.io/htm/preact/standalone.umd.js)
 >
-> directly from GitHub. (Tip: an [import map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) will help you avoiding long URLs in your import statements)
+> directly from GitHub. Since GitHub claims to be [GDPR-compliant](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#european-data-protection-rights-notice), this approach is save. (Tip: an [import map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) will help you avoiding long URLs in your import statements)
 >
 > As a consequence you may now import the following entities directly from this bundle rather than from individual `htm` and `preact` modules:
 > `html`, `h`, `createElement`, `Component`, `createContext`, `createRef`, `render`, `hydrate`, `toChildArray`, `useState`, `useReducer`, `useEffect`, `useLayoutEffect`, `useRef`, `useImperativeHandle`, `useMemo`, `useCallback`, `useContext`, `useDebugValue`, `useErrorBoundary`, `useId`, `signal`, `computed`, `effect`, `batch`, `useSignal`, `useComputed`, `useSignalEffect`
