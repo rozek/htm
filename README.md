@@ -8,8 +8,8 @@
 > (both approx. 21.1kb large)
 >
 > Alternatively, do not build yourself but
-> * import from [https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.module.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.module.js) or
-> * load [https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js)
+> * import from [https://rozek.github.io/htm/master/preact/standalone.module.js](https://rozek.github.io/htm/master/preact/standalone.module.js) or
+> * load [https://rozek.github.io/htm/master/preact/standalone.umd.js](https://rozek.github.io/htm/master/preact/standalone.umd.js)
 >
 > directly from GitHub. (Tip: an [import map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) will help you avoiding long URLs in your import statements)
 >
