@@ -4,6 +4,7 @@
 > and either
 > * import from `preact/standalone.module.js` or
 > * load `preact/standalone.umd.js`
+> 
 > (both approx. 21.1kb large)
 
 > **Nota bene**: as mentioned in an [htm issue](https://github.com/developit/htm/issues/239), you may achieve a similar result with the help of [npm.reversehttp.com](https://npm.reversehttp.com) using the URL<br><br>
