@@ -2,10 +2,16 @@
 > If you want to use the new standalone, just<br><br>
 > &nbsp; `npm run build:preact`<br><br>
 > and either
-> * import from `preact/standalone.module.js`<br>([https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.module.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.module.js)) or
-> * load `preact/standalone.umd.js`<br>[https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js)
+> * import from `preact/standalone.module.js` or
+> * load `preact/standalone.umd.js`
 > 
 > (both approx. 21.1kb large)
+>
+> Alternatively, do not build yourself but
+> * import from [https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.module.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.module.js) or
+> * load [https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js)
+>
+> directly from GitHub.
 >
 > As a consequence you may now import the following entities directly from this bundle rather than from individual `htm` and `preact` modules:
 > `html`, `h`, `createElement`, `Component`, `createContext`, `createRef`, `render`, `hydrate`, `toChildArray`, `useState`, `useReducer`, `useEffect`, `useLayoutEffect`, `useRef`, `useImperativeHandle`, `useMemo`, `useCallback`, `useContext`, `useDebugValue`, `useErrorBoundary`, `useId`, `signal`, `computed`, `effect`, `batch`, `useSignal`, `useComputed`, `useSignalEffect`
