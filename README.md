@@ -1,4 +1,4 @@
-> compared to the original [htm](https://github.com/developit/htm), this fork introduces just one little change: it adds `@preact/signals` to the Preact binding of `htm`.<br>
+> compared to the original [htm](https://github.com/developit/htm), this fork introduces just one little change: it adds `@preact/signals` and `preact/hooks` to the Preact binding of `htm`.<br>
 > If you want to use the new standalone, just<br><br>
 > &nbsp; `npm run build:preact`<br><br>
 > and either
@@ -6,6 +6,9 @@
 > * load `preact/standalone.umd.js`<br>[https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js](https://raw.githubusercontent.com/rozek/htm/master/preact/standalone.umd.js)
 > 
 > (both approx. 21.1kb large)
+>
+> As a consequence you may now import the following entities directly from this bundle rather than from individual htm and preact modules:
+> `html`, `h`, `createElement`, `Component`, `createContext`, `createRef`, `render`, `hydrate`, `toChildArray`, `useState`, `useReducer`, `useEffect`, `useLayoutEffect`, `useRef`, `useImperativeHandle`, `useMemo`, `useCallback`, `useContext`, `useDebugValue`, `useErrorBoundary`, `useId`, `signal`, `computed`, `effect`, `batch`, `useSignal`, `useComputed`, `useSignalEffect`
 
 > **Nota bene**: as mentioned in an [htm issue](https://github.com/developit/htm/issues/239), you may achieve a similar result with the help of [npm.reversehttp.com](https://npm.reversehttp.com) using the URL<br><br>
 > &nbsp; `https://npm.reversehttp.com/#@preact/signals-core,@preact/signals,htm/preact,preact`<br><br>
