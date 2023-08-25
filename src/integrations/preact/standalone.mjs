@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-import { h, createElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
+import { h, createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
 import { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId } from 'preact/hooks';
 import { /*signal, computed, effect, batch,*/ useSignal, useComputed, useSignalEffect } from '@preact/signals';
 
@@ -21,7 +21,7 @@ const html = htm.bind(h);
 
 export {
   html,
-  h, createElement, Component, createContext, createRef, render, hydrate, toChildArray,
+  h, createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray,
   useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId,
   /*signal, computed, effect, batch,*/ useSignal, useComputed, useSignalEffect
 };
