@@ -5,7 +5,7 @@
 > * import from `preact/standalone.module.js` or
 > * load `preact/standalone.umd.js`
 > 
-> (both approx. 21.1kb large)
+> (both approx. 23kb large)
 >
 > Alternatively, do not build yourself but
 > * import from [https://rozek.github.io/htm/preact/standalone.module.js](https://rozek.github.io/htm/preact/standalone.module.js) or
