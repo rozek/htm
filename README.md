@@ -1,4 +1,4 @@
-> compared to the original [htm](https://github.com/developit/htm), this fork introduces just one little change: it adds `@preact/signals` and `preact/hooks` to the Preact binding of `htm`.<br>
+> compared to the original [htm](https://github.com/developit/htm), this fork introduces just one little change: it adds `preact/hooks` to the Preact binding of `htm`.<br>
 > If you want to use the new standalone, just<br><br>
 > &nbsp; `npm run build:preact`<br><br>
 > and either
