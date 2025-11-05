@@ -2,7 +2,7 @@
 > If you want to use the new standalone, just<br><br>
 > &nbsp; `npm run build:preact`<br><br>
 > and either
-> * import from `preact/standalone.module.js` or
+> * import from `preact/standalone.esm.js` or
 > * load `preact/standalone.umd.js`
 > 
 > (both approx. 23kb large)
