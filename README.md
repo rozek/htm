@@ -17,7 +17,7 @@
 > `html`, `h`, `createElement`, `Component`, `createContext`, `createRef`, `render`, `hydrate`, `toChildArray`, `useState`, `useReducer`, `useEffect`, `useLayoutEffect`, `useRef`, `useImperativeHandle`, `useMemo`, `useCallback`, `useContext`, `useDebugValue`, `useErrorBoundary`, `useId`
 
 > **Nota bene**: as mentioned in an [htm issue](https://github.com/developit/htm/issues/239), you may achieve a similar result with the help of [npm.reversehttp.com](https://npm.reversehttp.com) using the URL<br><br>
-> &nbsp; `https://npm.reversehttp.com/#@preact/signals-core,@preact/signals,preact/hooks,htm/preact,preact`<br><br>
+> &nbsp; `https://npm.reversehttp.com/#preact/hooks,htm/preact,preact`<br><br>
 > But be warned if you plan to use "npm.reversehttp.com" for other bundles: you will always have to explicitly mention any modules your result depends on - even transitive dependencies - if you want all of them bundled together. In addition, GDPR-compliance of `npm.reversehttp.com` seems unclear and may not be given - use it at your own risk!<br><br>
 > On the other hand, this approach frees you from the need for a separate module...
 
