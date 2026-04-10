@@ -19,7 +19,7 @@ export { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperative
 export { createPortal } from 'preact/compat'
 // export * from '@preact/signals-core'
 
-import h   from 'preact';
+import { h } from 'preact';
 import htm from '../../index.mjs';
 
 const html = htm.bind(h);
