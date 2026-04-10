@@ -11,8 +11,7 @@
  * limitations under the License.
  */
 
-import { createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
-export { createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray };
+export { createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
 
 export { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId } from 'preact/hooks';
 // import { /*signal, computed, effect, batch,*/ untracked, useSignal, useComputed, useSignalEffect } from '@preact/signals';
@@ -22,4 +21,4 @@ export { createPortal } from 'preact/compat'
 import { h } from 'preact';
 import htm from '../../index.mjs';
 
-const html = htm.bind(h);
+export const html = htm.bind(h);
