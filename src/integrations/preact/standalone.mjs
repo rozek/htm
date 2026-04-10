@@ -11,20 +11,15 @@
  * limitations under the License.
  */
 
-import { h, createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
-import { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId } from 'preact/hooks';
-// import { /*signal, computed, effect, batch,*/ untracked, useSignal, useComputed, useSignalEffect } from '@preact/signals';
-import { createPortal } from 'preact/compat'
+import { createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray } from 'preact';
+export { createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray };
 
+export { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId } from 'preact/hooks';
+// import { /*signal, computed, effect, batch,*/ untracked, useSignal, useComputed, useSignalEffect } from '@preact/signals';
+export { createPortal } from 'preact/compat'
+// export * from '@preact/signals-core'
+
+import h   from 'preact';
 import htm from '../../index.mjs';
 
 const html = htm.bind(h);
-
-export {
-  html,
-  h, createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray,
-  useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId,
-  /*signal, computed, effect, batch, untracked, useSignal, useComputed, useSignalEffect,*/
-  createPortal
-};
-// export * from '@preact/signals-core'
